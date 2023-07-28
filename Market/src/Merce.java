@@ -1,5 +1,3 @@
-import AziendaZtrhe.AutoNonDisponibiliException;
-
 public class Merce {
 
     private String marca;
