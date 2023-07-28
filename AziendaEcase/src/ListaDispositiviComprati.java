@@ -1,7 +1,3 @@
-import AziendaZtrhe.Automobile;
-
-import java.util.ArrayList;
-
 public class ListaDispositiviComprati {
     public static Dispositivo[] elencoDispositivi = {
             new Luce("Notturna", "CameraDaLetto",StatoDispositivo.SPENTO),

@@ -1,6 +1,3 @@
-import AziendaZtrhe.ParcoAuto;
-import AziendaZtrhe.StatoOccupazione;
-
 import java.util.ArrayList;
 
 public class GestoreDispositivi {
