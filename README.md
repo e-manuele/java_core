@@ -1,6 +1,8 @@
 # java_core
-Esercizi di java core molto belli.
+
+Esercizi di java core et al. molto belli.
 Sembra molto tranquillo qui.
 
-Esercizi e tutorial su git:
-https://gitexercises.fracz.com/
+## Link molto utili 
+- Git info : https://gitexercises.fracz.com/
+- Design info : https://refactoring.guru/
