@@ -18,7 +18,7 @@ public class FileReader {
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
                 this.fileRows.add(data);
-                System.out.println(data);
+                //System.out.println(data);
             }
             myReader.close();
 
