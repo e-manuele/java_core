@@ -14,15 +14,15 @@ public class FileReader {
         File myObj = new File(path);
         try {
             Scanner myReader = new Scanner(myObj);
-
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
                 this.fileRows.add(data);
-                //System.out.println(data);
+//                System.out.println(data);
             }
             myReader.close();
 
-        } catch (Exception ignored) {
+        } catch (Exception e) {
+            System.out.println(e);
         }
         return this.fileRows;
     }
