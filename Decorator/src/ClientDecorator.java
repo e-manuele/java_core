@@ -5,11 +5,11 @@ public class ClientDecorator {
         System.out.println("\n*****");
         Car sportsLuxuryCar = new SportsCar(new LuxuryCar(new BasicCar()));
         sportsLuxuryCar.assemble();
-/**
+/*
  * in pratica si riesce a fare un mix-in di 2+ sotto-classi
  * cosa che non si puo' fare con una tipologa basata solo sulla gerarchia
  *
- 13
+ *
  Figure 3: Inheritance
  * NB il client puo' decidere quali decoratori usare e anche
  * l'ordine con cui applicarli.
@@ -18,6 +18,7 @@ public class ClientDecorator {
         System.out.println("\n*****");
         Car luxurySportsCar = new LuxuryCar(new SportsCar(new BasicCar()));
         luxurySportsCar.assemble();
+        System.out.println("\n*****");
     }
 }
 
