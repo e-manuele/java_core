@@ -1,0 +1,5 @@
+software_eng,junior,software_development
+software_eng,senior,software_development,architetto_software
+software_eng,prog,architetto_software
+product_manager,junior,app_engineering
+product_manager,senior,personnel_management,app_engineering
