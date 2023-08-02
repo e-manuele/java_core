@@ -1,4 +1,4 @@
 public interface Handler {
-    void handle(Request r);
+    boolean handle(Request r);
     void add(Handler h);
 }

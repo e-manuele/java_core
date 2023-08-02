@@ -16,23 +16,26 @@ public class AuthenticationHandler extends BasicHandler {
     }
 
     @Override
-    public void handle(Request r) {
+    public boolean handle(Request r) {
         if (userMap.get(r.user) != null) {
             if (userMap.get(r.user).equals(r.passwd)) {
                 r.authenticate();
                 System.out.println("AuthenticationH: User: " + r.user +" is authenticated");
             } else {
                 System.out.println("AuthenticationH: Incorrect pwd for " + r.user);
+                return false;
             }
 
         } else {
             System.out.println("AuthenticationH: User: " + r.user + " not present");
+            return false;
         }
         if (this.next != null && r.isAuth()) {
-            this.next.handle(r);
+             return this.next.handle(r);
         }
 
 
+        return false;
     }
 
 }

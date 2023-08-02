@@ -4,9 +4,10 @@ public class BasicHandler implements Handler {
         this.next = next;
     }
     @Override
-    public void handle(Request r) {
+    public boolean handle(Request r) {
         if(next!=null){
             next.handle(r);
         }
+        return false;
     }
 }
