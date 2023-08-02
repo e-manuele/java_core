@@ -1,0 +1,4 @@
+pippo,pluto
+pinco,pallo
+ciao,ciao
+miao,bau
